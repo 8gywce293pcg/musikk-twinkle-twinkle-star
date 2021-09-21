@@ -8,7 +8,7 @@ Målet er å spille Twinkle twinkle little star !
 
 ## Steg 1: Lage en funksjon som skal inneholde toner for begynelse og slutt vers.
 Vi begynner med 1 vers og siste vers.
-Trykk på ``|| Advanced: ||`` fra blokkmenyen. Trykk deretter på ``|| Functions: Funksjoner ||``.
+Trykk på ``|| Advanced: Avansert ||`` fra blokkmenyen. Trykk deretter på ``|| Functions: Funksjoner ||``.
 
 Klikk på ``|| Functions: Lag en funksjon ||`` og klikk inni feltet som det står [ gjørNoe].
 Skriv inn [Begynnelse/Slutt]. (her kan du kalle den det du vil. men lurt å gi et navn så du vet hva denne inneholder.
