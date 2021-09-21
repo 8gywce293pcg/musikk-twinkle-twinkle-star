@@ -20,7 +20,7 @@ function BegynnelseSlutt () {
 ```
 ## Steg 2: Lage en funksjon som skal inneholde toner for refrenget.
 Så tar vi refrenget.
-Trykk på ``|| Advanced: Avansert||`` fra blokkmenyen. Trykk deretter på ``|| Functions: Funksjoner ||``.
+Trykk på ``|| Advanced: Avansert ||`` fra blokkmenyen. Trykk deretter på ``|| Functions: Funksjoner ||``.
 
 Klikk på ``|| Functions: Lag en funksjon ||`` og klikk inni feltet som det står [ gjørNoe ].
 Skriv inn [ Refreng ]. (her kan du kalle den det du vil. men lurt å gi et navn så du vet hva denne inneholder.
