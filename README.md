@@ -6,12 +6,12 @@ Her vil du lære å kode kule toner.
 Målet er å spille Twinkle twinkle little star !
 
 
-## Steg 1: Lage en funksjon som skal inneholde toner for begynelse og slutt vers.
-Vi begynner med 1 vers og siste vers.
+## Steg 1: Lage en funksjon som skal inneholde toner for første og siste vers.
+Vi begynner med første vers og siste vers.
 Trykk på ``|| Advanced: Avansert ||`` fra blokkmenyen. Trykk deretter på ``|| Functions: Funksjoner ||``.
 
 Klikk på ``|| Functions: Lag en funksjon ||`` og klikk inni feltet som det står [ gjørNoe].
-Skriv inn [Begynnelse/Slutt]. (her kan du kalle den det du vil. men lurt å gi et navn så du vet hva denne inneholder.
+Skriv inn [Begynnelse/Slutt]. (her kan du kalle den det du vil. men gi den et navn som forteller hva denne inneholder.
  )
 
  ```blocks  
@@ -23,7 +23,7 @@ Så tar vi refrenget.
 Trykk på ``|| Advanced: Avansert ||`` fra blokkmenyen. Trykk deretter på ``|| Functions: Funksjoner ||``.
 
 Klikk på ``|| Functions: Lag en funksjon ||`` og klikk inni feltet som det står [ gjørNoe ].
-Skriv inn [ Refreng ]. (her kan du kalle den det du vil. men lurt å gi et navn så du vet hva denne inneholder.
+Skriv inn [ Refreng ]. (her kan du kalle den det du vil. men gi den et navn som forteller hva denne inneholder.
  )
 
  ```blocks  
@@ -587,8 +587,58 @@ basic.forever(function () {
     begynnelseslutt()
 })
 ```
-## Steg 28: Leste ned på microbiten
+## Steg 28: Laste ned på microbiten
 
-hvis du har en @boardname@ tilkoblet, trykk ``|last ned|``!
+Hvis du har en @boardname@ tilkoblet, trykk ``|last ned|``!
 Prøv nå også endre farge og hvilken LED som skal lyse for så å trykke ``|last ned|`` igjen.
-For hver endring vi gjør i koden må det lastes ned på nytt til @boardname@.
+For hver endring vi gjør i koden må det lastes ned på nytt til @boardname@. Dersom du ikke har en @boardname@ tilkoblet, må du gjøre de neste stegene også.
+
+## Steg 29: Koble til micro:biten
+For å kunne laste ned koden din til micro:biten med et klikk må du først få MakeCode til å skjønne at alle filer skal lastes ned direkte til den.
+Det krever bare noen få, enkle steg.
+
+## Steg 30: Prikkene ved siden av Last Ned-knappen
+
+Start med å sjekke at micro:biten du skal bruke er koblet til PCen. Når den er koblet til, klikker du på de tre prikkene ved siden av ``|last ned|``-knappen
+
+![Connect](https://raw.githubusercontent.com/InspiriaSCC/Superbit/master/static/Connect1.jpg)
+
+## Steg 31: Connect-menyen @unplugged
+Når du klikker på de tre prikkene dukker det oppe en liten meny. Dersom det står "Koble Fra" eller "Disconnect" på den øverste linjen, trenger du ikke å gjøre mer.
+Da kjenner PCen og MakeCode igjen micro:biten fra tidligere, og du kan klikke ved siden av menyen og laste ned koden din ved å klikke på den store ``|last ned|``-knappen.
+
+![Connect](https://raw.githubusercontent.com/InspiriaSCC/Superbit/master/static/Connect2b.jpg)
+
+
+## Steg 32: Dersom MakeCode ikke kjenner micro:biten fra før
+Dersom MakeCode ikke kjenner micro:biten fra før vil det stå "Connect device" eller "Koble til" på den øverste linjen.
+Klikk i så fall på den øverste linjen i menyen.
+
+![Connect](https://raw.githubusercontent.com/InspiriaSCC/Superbit/master/static/Connect2.jpg)
+
+
+## Steg 33: Veiledningsvindu
+
+Når du klikker på den øverste linjen dukker det opp et par veiledningsvinduer som tar deg gjennom tilkoblingsprosessen. De to første kan du bare trykke "Next" eller "Fortsett" på:
+
+![Connect](https://raw.githubusercontent.com/InspiriaSCC/Superbit/master/static/Connect3.jpg)
+
+![Connect](https://raw.githubusercontent.com/InspiriaSCC/Superbit/master/static/Connect4.jpg)
+
+
+## Steg 34: Velg micro:biten
+
+Etter at du har klikket "Next" to ganger dukker det opp en liste over tilgjengelige micro:biter. Det skal bare være én micro:bit på lista.
+Klikk først på navnet til micro:biten så det blir merket med blått, og så på "Koble til".
+
+![Connect](https://raw.githubusercontent.com/InspiriaSCC/Superbit/master/static/Connect5.jpg)
+
+## Steg 35: Ferdig!
+
+I det siste veiledningsvinduet klikker du på "Done" eller "Ferdig" om det står på norsk.
+Etter det kan du laste ned kode direkte til micro:biten ved å klikke på den store, lilla ``|last ned|``-knappen nederst til venstre på skjermen i MakeCode:
+
+![Connect](https://raw.githubusercontent.com/InspiriaSCC/Superbit/master/static/Connect6.jpg)
+
+* for PXT/microbit
+<script src="https://makecode.com/gh-pages-embed.js"></script><script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>
